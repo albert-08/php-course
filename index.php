@@ -7,7 +7,9 @@
 </head>
 <body>
   <?php
-    echo "<p>Hello world!</p>"
+    print "Welcome to php course <br>";
+    print "Hello world! <br>";
+    print "See you next time";
   ?>
 </body>
 </html>
