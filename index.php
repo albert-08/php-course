@@ -7,7 +7,8 @@
 </head>
 <body>
   <?php
-    print "Welcome to php course <br>";
+    include "variables_comments_print_echo.php";
+    print "<br> Welcome to php course <br>";
     print "Hello world! <br>";
     print "See you next time";
   ?>
