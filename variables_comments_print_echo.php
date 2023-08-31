@@ -17,4 +17,5 @@
 
   echo "El nombre es: " . $nombre . " y tiene " . $edad . " años <br>";
   echo $nombre, $edad;
+  echo "<br>";
 ?>

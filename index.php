@@ -7,10 +7,17 @@
 </head>
 <body>
   <?php
-    include "variables_comments_print_echo.php";
-    print "<br> Welcome to php course <br>";
+    print "Welcome to php course <br>";
     print "Hello world! <br>";
-    print "See you next time";
+    print "See you next time <br>";
+
+    echo "<br>";
+
+    include "variables_comments_print_echo.php";
+
+    echo "<br>";
+
+    include "execution_flow_functions_include_require.php";
   ?>
 </body>
 </html>
