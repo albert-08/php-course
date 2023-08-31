@@ -1,4 +1,6 @@
 <?php
+  echo "<h2>Variables, comments, print, and echo</h2><br>";
+  
   // Este es un comentario de una sola línea
   /*
     Este es un comentario

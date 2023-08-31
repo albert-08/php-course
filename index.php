@@ -9,11 +9,41 @@
       background-color: gray;
       text-align: center;
       color: #00F;
+      font-weight: bold;
     }
     h2 {
       background-color: yellow;
       text-align: center;
+      color: #000;
+      font-weight: bold;
+    }
+    h3 {
+      background-color: #0F0;
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+    }
+    h4 {
+      background-color: #00F;
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+    }
+    .resaltar {
+      color: #F00;
+      font-weight: bold;
+    }
+    .resaltar {
+      color: #F00;
+      font-weight: bold;
+    }
+    .resaltar_dos {
       color: #0F0;
+      font-weight: bold;
+    }
+    .resaltar_tres {
+      color: #00F;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -24,25 +54,11 @@
     print "Hello world! <br>";
     print "Welcome to php course <br>";
 
-    echo "<br>";
-
-    echo "<h2>Variables, comments, print, and echo</h2><br>";
     include "variables_comments_print_echo.php";
-
-    echo "<br>";
-
-    echo "<h2>Execution flow, functions, include and require</h2><br>";
     include "execution_flow_functions_include_require.php";
-
-    echo "<br>";
-
-    echo "<h2>Variable scope</h2><br>";
     include "variable_scope.php";
-    
-    echo "<br>";
-
-    echo "<h2>Static variables</h2><br>";
     include "static_variables.php";
+    include "strings.php";
   ?>
 </body>
 </html>

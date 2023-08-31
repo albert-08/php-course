@@ -1,4 +1,6 @@
 <?php
+  echo "<h2>Variable scope</h2><br>";
+  
   $nombre="Lorena";
 
   function dameNombre() {
@@ -16,4 +18,6 @@
   dameNombre();
 
   echo $nombre;
+
+  echo "<br>";
 ?>
