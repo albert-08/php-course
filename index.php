@@ -60,6 +60,7 @@
     include "static_variables.php";
     include "strings.php";
     include "comparison_operators.php";
+    include "constants.php";
   ?>
 </body>
 </html>
