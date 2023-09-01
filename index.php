@@ -59,6 +59,7 @@
     include "variable_scope.php";
     include "static_variables.php";
     include "strings.php";
+    include "comparison_operators.php";
   ?>
 </body>
 </html>
