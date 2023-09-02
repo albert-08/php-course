@@ -93,5 +93,7 @@
       calcular($operacion);
     }  
   ?>
+  <br>
+  <?php include "mathematical_functions.php"; ?>
 </body>
 </html>
