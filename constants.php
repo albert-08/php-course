@@ -13,10 +13,15 @@
   ";
 
   define("AUTOR", "Juan", true);
-  define("AUTOR", "Mariana");
+  // define("AUTOR", "Mariana");
 
-  echo "El autor es: " . AUTOR;
-  echo "El autor es: " . autor;
+  echo "El autor es: " . AUTOR . "<br>";
+  
+  try {
+    echo "El autor es: " . autor . "<br>";
+  } catch (\Throwable $th) {
+    echo $th;
+  }
 
   echo "<h3>Predefined Constants</h3>";
 

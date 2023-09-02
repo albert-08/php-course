@@ -62,5 +62,36 @@
     include "comparison_operators.php";
     include "constants.php";
   ?>
+  <h2>Arithmetic and Incrementing/Decrementing Operators</h2>
+  <p>&nbsp;</p>
+  <form action="" method="post">
+    <label for="num1">Numero 1</label>
+    <input type="text" name="num1" id="num1">
+    <label for="num2">Numero 2</label>
+    <input type="text" name="num2" id="num2">
+    <label for="operacion"></label>
+    <select name="operacion" id="operacion">
+      <option value="Suma">Suma</option>
+      <option value="Resta">Resta</option>
+      <option value="Multiplicación">Multiplicación</option>
+      <option value="División">División</option>
+      <option value="Módulo">Módulo</option>
+      <option value="Incremento">Incremento</option>
+      <option value="Decremento">Decremento</option>
+    </select>
+    <input type="submit" value="Enviar" name="button" id="button">
+  </form>
+  <p>&nbsp;</p>
+  <?php
+    include "calculadora.php";
+
+    if (isset($_POST["button"])) {
+      $numero1=$_POST["num1"];
+      $numero2=$_POST["num2"];
+      $operacion=$_POST["operacion"];
+
+      calcular($operacion);
+    }  
+  ?>
 </body>
 </html>
