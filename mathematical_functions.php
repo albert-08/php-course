@@ -70,4 +70,6 @@
   $resultado=(int)$num1;
 
   echo "El número es: " . $resultado;
+
+  echo "<br>";
 ?>

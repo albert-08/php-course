@@ -94,6 +94,9 @@
     }  
   ?>
   <br>
-  <?php include "mathematical_functions.php"; ?>
+  <?php
+    include "mathematical_functions.php";
+    include "operator_precedence.php";
+  ?>
 </body>
 </html>
